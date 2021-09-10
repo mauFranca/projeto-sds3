@@ -2,7 +2,6 @@ package com.devsuperior.dsvendas.dto;
 
 import java.time.LocalDate;
 
-
 import com.devsuperior.dsvendas.entities.Sale;
 
 public class SaleDTO {
@@ -30,8 +29,8 @@ public class SaleDTO {
 	public SaleDTO(Sale entity) {
 		id = entity.getId();
 		visited = entity.getVisited();
+		amount = entity.getAmount();
 		deals = entity.getDeals();
-		amount = entity.getAmont();
 		date = entity.getDate();
 		seller = new SellerDTO(entity.getSeller());
 	}

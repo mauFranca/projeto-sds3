@@ -2,6 +2,7 @@ package com.devsuperior.dsvendas.entities;
 
 import java.time.LocalDate;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -62,11 +63,11 @@ public class Sale {
 		this.deals = deals;
 	}
 
-	public Double getAmont() {
+	public Double getAmount() {
 		return amount;
 	}
 
-	public void setAmont(Double amount) {
+	public void setAmount(Double amount) {
 		this.amount = amount;
 	}
 
